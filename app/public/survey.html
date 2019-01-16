@@ -7,55 +7,32 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" 
     integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" 
     crossorigin="anonymous">
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="style.css">
     <script src="https://code.jquery.com/jquery.js"></script>
     <title>Document</title>
 </head>
 <body>
     <div class="container">
-    <h1>Dating Survey Questions</h1>
+    <h1>Friend Survey Questions</h1>
             <div class="panel panel-default">
                 <div class="panel-body d-flex">
                 <div class="card col-6 d-flex flex-column justify-content-center align-items-center">
-                    <h3>Gender:</h3>
                     <div class="btn-group" data-toggle="buttons">
                             <div>
                                 <label for="friend-name">Name</label>
                                 <input type="text" class="form-control" id="friend-name">
                             </div>
-                        <label class="btn btn-default">
-                            <input type="radio" autocomplete="off" /> Male
-                        </label>
-                        <label class="btn btn-default">
-                            <input type="radio" autocomplete="off" /> Female
-                        </label>
+        
                     </div>
                 </div>
                 
-                <div class="card col-6 d-flex flex-column justify-content-center align-items-center">
-                    <h3>Age Group:</h3> 
-                    <div class="btn-group" data-toggle="buttons">
-                        <label class="btn btn-default">
-                            <input type="radio" autocomplete="off" />Under 18
-                        </label>
-                        <label class="btn btn-default">
-                            <input type="radio" autocomplete="off" />18-25
-                        </label>
-                        <label class="btn btn-default">
-                            <input type="radio" autocomplete="off" />25-50
-                        </label>
-                        <label class="btn btn-default">
-                            <input type="radio" autocomplete="off" />Over 50
-                        </label>
-                    </div>
-                </div>
             </div>
         </div>    
     <div class="d-flex">
         <div class="card">
             <h2>What is your idea of a good night out?</h2>
                 <div class="form-group">
-                    <select class="chosen-select" id="1">
+                    <select class="chosen-select" name="qForm" id="1">
                         <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -68,7 +45,7 @@
         <div class="card">
             <h2>What is your idea of a good night out?</h2>
                 <div class="form-group">
-                    <select class="chosen-select" id="2">
+                    <select class="chosen-select" name="qForm" id="2">
                         <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -83,7 +60,7 @@
         <div class="card">
             <h2>What is your idea of a good night out?</h2>
                 <div class="form-group">
-                    <select class="chosen-select" id="3">
+                    <select class="chosen-select" name="qForm" id="3">
                         <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -96,7 +73,7 @@
         <div class="card">
             <h2>What is your idea of a good night out?</h2>
                 <div class="form-group">
-                    <select class="chosen-select" id="4">
+                    <select class="chosen-select" name="qForm" id="4">
                         <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -111,7 +88,7 @@
         <div class="card">
             <h2>What is your idea of a good night out?</h2>
                 <div class="form-group">
-                    <select class="chosen-select" id="5">
+                    <select class="chosen-select" name="qForm" id="5">
                         <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -124,7 +101,7 @@
         <div class="card">
             <h2>What is your idea of a good night out?</h2>
                 <div class="form-group">
-                    <select class="chosen-select" id="6">
+                    <select class="chosen-select" name="qForm" id="6">
                         <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -139,7 +116,7 @@
         <div class="card">
             <h2>What is your idea of a good night out?</h2>
                 <div class="form-group">
-                    <select class="chosen-select" id="7">
+                    <select class="chosen-select" name="qForm" id="7">
                         <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -152,7 +129,7 @@
         <div class="card">
             <h2>What is your idea of a good night out?</h2>
                 <div class="form-group">
-                    <select class="chosen-select" id="8">
+                    <select class="chosen-select" name="qForm" id="8">
                         <option value=""></option>
                         <option value="1">1 (Strongly Disagree)</option>
                         <option value="2">2</option>
@@ -167,7 +144,7 @@
         <div class="card">
             <h2>What is your idea of a good night out?</h2>
             <div class="form-group">
-                <select class="chosen-select" id="9">
+                <select class="chosen-select" name="qForm" id="9">
                     <option value=""></option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -180,7 +157,7 @@
         <div class="card">
             <h2>What is your idea of a good night out?</h2>
             <div class="form-group">
-                <select class="chosen-select" id="10">
+                <select class="chosen-select" name="qForm" id="10">
                     <option value=""></option>
                     <option value="1">1 (Strongly Disagree)</option>
                     <option value="2">2</option>
@@ -197,6 +174,18 @@
 <script>
     $(".submit").on("click", function(event) {
         event.preventDefault();
+        var valid;
+        function validation(){
+            var x = $(".chosen-select").each(function(){
+                if($(this).val()== "") {
+                    valid=false;
+                    console.log("fill in all fileds please");
+                }
+                else{valid = true};
+            });  
+        };
+        validation();
+        if (valid) {
         var newPerson={
             name : $("#friend-name").val().trim(),
             scores: [
@@ -214,10 +203,18 @@
         }
         console.log(newPerson);
 
-        // $.post("/api/friends"){
+        $.post("/api/friends", newPerson, function(data){
+            if (data) { 
+                alert("Yay! we will find you a cool friend!");
 
-        // }
-    });
+            }
+            else {
+                alert("Try one more time :)") 
+                console.log("problems with survey submit")
+            }
+        });
+    };
+});
 </script>
 </body>
 </html>
